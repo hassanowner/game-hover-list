@@ -28,4 +28,4 @@ Below is a screenshot of the **hover effect in action** — when the user hovers
 
 ![Game List Hover Preview](preview.jpg)
 ---
-🔗 [Live Demo](https://hassanowner.github.io/game-hover-list/main/))
+🔗 You can view the live project here: [View Project](https://hassanowner.github.io/game-hover-list/main/)
