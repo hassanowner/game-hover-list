@@ -4,7 +4,7 @@ This project showcases a **responsive and interactive game list**. When you hove
 
 ---
 
-## ✨ Features
+##  Features
 
 - Smooth **hover animations** with transitions  
 - Reveals game **details and captions** on interaction  
