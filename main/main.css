@@ -1,0 +1,146 @@
+:root {
+    --cpation-pos: 10px; }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap');
+
+body {
+  background: #4851ad88;  
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;      
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 29vh;
+    position: relative;
+    top: 90px;
+    transition: all 0.5s;
+}
+
+.box {
+    flex: 1;
+    width: 20px;
+    height: 200px;
+    margin: 2px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+#box1 {
+    background-position: center top;
+    background-size: 180px;
+}
+
+#box2 {
+    background-position: center bottom;
+    background-size: 200px;
+}
+
+.box:hover {
+    flex-grow: 2;
+}
+
+.box:hover .spa {
+    opacity: 1;
+    font-size: 15px;
+    transform: translateX(-3px) translateY(-40px);
+    transition: all 0.5s;
+}
+
+.box:hover .caption {
+    opacity: 0.8;
+    transform: translateY(-60px);
+    transition: all 0.5s;
+}
+
+.the-title {
+    position: absolute;
+    left: 95px;
+    color: #06114ccf;
+    font-size: 26px;
+}
+
+.description {
+    position: absolute;
+    left: 67px;
+    top: 46px;
+    color: #06114ccf;
+    font-size: 10px;
+}
+
+.spa {
+    position: absolute;
+    top: 163px;
+    font-size: 8px;
+    white-space: pre;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.spa.one {
+    left: 15px;
+}
+
+.spa.two {
+    left: 104px;
+    top: 154px;
+}
+
+.spa.three {
+    left: 192px;
+    top: 160px;
+}
+
+.caption {
+    position: absolute;
+    top: 200px;
+    font-size: 8px;
+    white-space: pre;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.caption.one {
+    left: var(--cpation-pos);
+}
+
+.caption.two {
+    left: calc(var(--cpation-pos) + 90px);
+    top: 190px;
+}
+
+.caption.three {
+    left: calc(var(--cpation-pos) + 180px);
+}
+
+.dots {
+    position: relative;
+    top: 90px;
+    left: 38px;
+    width: 40px;
+    height: 2px;
+    border-radius: 40px;
+    background: lightgray;
+    opacity: 0.4;
+    transition: all 0.5s;
+}
+
+.container:hover .dots {
+    transform: rotateY(90deg);
+    opacity: 0.3;
+}
+
+.container:hover .box {
+    opacity: 0.7;
+}
+
+.container:hover .box:hover {
+    opacity: 1;
+}
