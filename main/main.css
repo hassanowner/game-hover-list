@@ -14,7 +14,7 @@ body {
 .container {
     display: flex;
     height: 29vh;
-    position: relative;
+    position: relative;    
     top: 90px;
     transition: all 0.5s;
 }
@@ -50,7 +50,7 @@ body {
 .box:hover .spa {
     opacity: 1;
     font-size: 15px;
-    transform: translateX(-3px) translateY(-40px);
+    transform: translateX(3px) translateY(-40px);
     transition: all 0.5s;
 }
 
@@ -80,21 +80,21 @@ body {
     top: 163px;
     font-size: 8px;
     white-space: pre;
-    opacity: 0;
+    opacity: 1;
     transition: all 0.5s;
 }
 
 .spa.one {
-    left: 15px;
+    left: 8px;
 }
 
 .spa.two {
-    left: 104px;
+    left: 27%;
     top: 154px;
 }
 
 .spa.three {
-    left: 192px;
+    left: 52%;
     top: 160px;
 }
 
@@ -112,12 +112,12 @@ body {
 }
 
 .caption.two {
-    left: calc(var(--cpation-pos) + 90px);
+    left: 27%;
     top: 190px;
 }
 
 .caption.three {
-    left: calc(var(--cpation-pos) + 180px);
+    left: calc(var(--cpation-pos) + 51.2%);
 }
 
 .dots {
