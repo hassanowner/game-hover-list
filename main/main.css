@@ -14,6 +14,7 @@ body {
 .container {
     display: flex;
     height: 29vh;
+    background:red;
     position: relative;    
     top: 90px;
     transition: all 0.5s;
