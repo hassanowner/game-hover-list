@@ -27,3 +27,5 @@ This project showcases a **responsive and interactive game list**. When you hove
 Below is a screenshot of the **hover effect in action** — when the user hovers over a game card, it expands and displays game information with smooth transitions and styling:
 
 ![Game List Hover Preview](preview.jpg)
+---
+🔗 [Live Demo](https://hassanowner.github.io/game-hover-list/)
